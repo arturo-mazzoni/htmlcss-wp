@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.float-left {
+  float: left;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+
+body {
+  background-image: url("../img/natural-pattern.png");
+}
+
+header {
+  height: 400px;
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+
+.header-top {
+  height: 360px;
+  border: 10px solid white;
+  background-image: url("../img/natural-header.jpg");
+  position: relative;
+}
+
+.natural-logo img {
+  width: 100%
+}
+
+.natural-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* main */
+
+.aside-left {
+  width: 25%;
+  height: 500px;
+  margin-right: 10px;
+  background-color: blue;
+}
+
+.central-content {
+  width: calc(50% - 20px);
+  height: 400px;
+  background-color: red;
+}
+
+.aside-right {
+  width: 25%;
+  margin-left: 10px;
+}
+
+.aside-right .blocco {
+  width: 100%;
+  height: 300px;
+  background-color: purple;
+}
+
+.centrale {
+  margin: 10px 0;
+}
+
+/* fine main */
+
+footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  background-color: grey;
+}
