@@ -14,6 +14,10 @@ main::after {
   clear: both;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 1000px;
   margin: auto;
@@ -27,7 +31,7 @@ body {
 header {
   height: 400px;
   margin-bottom: 10px;
-  background-color: yellow;
+  background-color: rgb(87, 87, 89);
 }
 
 .header-top {
@@ -46,6 +50,28 @@ header {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.natural-logo h2 {
+  text-transform: uppercase;
+  color: white;
+}
+
+.header-bottom {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.header-bottom ul li {
+  text-transform: uppercase;
+  display: inline;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.header-bottom ul li a {
+  color: white;
 }
 
 
