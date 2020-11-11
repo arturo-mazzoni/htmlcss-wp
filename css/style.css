@@ -77,9 +77,9 @@ header {
 
 .header-bottom ul li {
   text-transform: uppercase;
-  display: inline;
+  display: inline-block;
   list-style-type: none;
-  padding: 20px;
+  padding: 0 10px;
 }
 
 .header-bottom ul li a {
